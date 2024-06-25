@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Latest FontAwesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS CDN -->
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -27,13 +30,27 @@
 </head>
 
 <body class="bg-red-100">
-    <nav class="">
-        <a href="">Home</a>
-        <a href="">My Job Application</a>
-        <a href="">Job Alerts</a>
-        <a href="">Find a Job</a>
-        <a href="">Sign Up</a>
-        <a href="">Log In</a>
+    <nav class="flex justify-between p-4 bg-white shadow">
+        <div>
+            <h1 class="text-xl ml-3 font-extrabold">GetHired</h1>
+        </div>
+        <div class="flex space-x-8"> 
+            <a href="#" class="text-gray-700 hover:text-black ">Home</a>
+            <a href="#" class="text-gray-700 hover:text-black">My Job Application</a>
+            <a href="#" class="text-gray-700 hover:text-black">Job Alerts</a>
+            <a href="#" class="text-gray-700 hover:text-black">Find a Job</a>
+            <a href="#" class="text-gray-700 hover:text-black">Sign Up</a>
+            <a href="#" class="text-gray-700 hover:text-black">Log In</a>
+        </div>
+        <div class="flex space-x-2 mr-4"> <!-- Reduced space-x to 2 -->
+            <a href="#" id="profile-link" class="text-gray-500 hover:text-black">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="#" id="notification-link" class="text-gray-500 hover:text-black">
+                <i class="fas fa-bell"></i>
+            </a>
+        </div>
     </nav>
 </body>
+
 </html>
