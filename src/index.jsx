@@ -40,7 +40,7 @@
             </button>
         </div>
     </nav>
-
+        <!--Nav for mobile view-->
     <div id="mobile-menu"
         class=" md:hidden flex flex-col items-center space-y-4 p-4 bg-gradient-to-r from-red-700 via-orange-500  to-orange-800 text-red-100">
         <a href="index.html" class=" hover:text-black">Home</a>
