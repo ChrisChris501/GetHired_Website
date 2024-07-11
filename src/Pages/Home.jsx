@@ -1,10 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase, faBell, faUser, faUserPlus, faSearch, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import Hiring from '../assets/Hiring.jpg';
+import Action from '../assets/Action.jpg';
 
 const Home = () => {
   return (
     <div className="bg-red-100">
-       <section
+      <section
         className="hero bg-cover bg-center py-32 opacity-80"
         style={{ backgroundImage: `url(${Hiring})` }}
       >
@@ -22,24 +25,25 @@ const Home = () => {
           </a>
         </div>
       </section>
+
       <section className="bg-red-50 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-red-900 mb-12">Why Choose Us?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="p-8 bg-white shadow-2xl rounded-lg">
-              <i className="fas fa-briefcase text-4xl text-red-600 mb-4"></i>
+            <div className="bg-white shadow-2xl rounded-lg py-24 px-12">
+              <FontAwesomeIcon icon={faBriefcase} className="text-4xl text-red-600 mb-4" />
               <h4 className="text-2xl font-semibold mb-2">Wide Range of Jobs</h4>
               <p className="text-gray-700">
                 Explore a variety of job opportunities across different industries and locations.
               </p>
             </div>
-            <div className="p-8 bg-white shadow-2xl rounded-lg">
-              <i className="fas fa-bell text-4xl text-red-600 mb-4"></i>
+            <div className="bg-white shadow-2xl rounded-lg py-24 px-12">
+              <FontAwesomeIcon icon={faBell} className="text-4xl text-red-600 mb-4" />
               <h4 className="text-2xl font-semibold mb-2">Job Alerts</h4>
               <p className="text-gray-700">Get notified about new job openings that match your preferences and skills.</p>
             </div>
-            <div className="p-8 bg-white shadow-2xl rounded-lg">
-              <i className="fas fa-user text-4xl text-red-600 mb-4"></i>
+            <div className="bg-white shadow-2xl rounded-lg py-24 px-12">
+              <FontAwesomeIcon icon={faUser} className="text-4xl text-red-600 mb-4" />
               <h4 className="text-2xl font-semibold mb-2">Career Resources</h4>
               <p className="text-gray-700">
                 Access valuable resources to enhance your resume, cover letter, and interview skills.
@@ -49,24 +53,23 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section className="bg-gradient-to-r from-red-800 via-orange-600 to-yellow-600 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-5xl font-bold mb-12 text-white">What Our Users Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300 py-24 px-12">
               <p className="text-lg text-gray-800 mb-6">
                 GetHired helped me find my dream job in just a few weeks. The job alerts feature is amazing!
               </p>
               <h4 className="text-2xl font-bold text-orange-600">- Jane Doe</h4>
             </div>
-            <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300 py-24 px-12">
               <p className="text-lg text-gray-800 mb-6">
-               &quot;The career resources on GetHired are top-notch. I improved my resume and landed more interviews.&quot;
+                &quot;The career resources on GetHired are top-notch. I improved my resume and landed more interviews.&quot;
               </p>
               <h4 className="text-2xl font-bold text-orange-600">- John Smith</h4>
             </div>
-            <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300 py-24 px-12">
               <p className="text-lg text-gray-800 mb-6">
                 &quot;I love the wide range of job opportunities available. There&lsquo;s something for everyone on GetHired.&quot;
               </p>
@@ -75,24 +78,23 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
-      {/* How It Works Section */}
+
       <section className="bg-white py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-orange-800 mb-12">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-orange-800 text-center">
-            <div className="p-8 border-2 border-orange-400 shadow-2xl rounded-lg">
-              <i className="fas fa-user-plus text-4xl mb-4"></i>
+            <div className="py-24 px-12 border-2 border-orange-400 shadow-2xl rounded-lg">
+              <FontAwesomeIcon icon={faUserPlus} className="text-4xl mb-4" />
               <h3 className="text-2xl font-bold mb-2">1. Sign Up</h3>
               <p className="text-lg">Create your free account to get started and access thousands of job listings.</p>
             </div>
-            <div className="p-8 border-2 border-orange-400 shadow-2xl rounded-lg">
-              <i className="fas fa-search text-4xl mb-4"></i>
+            <div className="py-24 px-12 border-2 border-orange-400 shadow-2xl rounded-lg">
+              <FontAwesomeIcon icon={faSearch} className="text-4xl mb-4" />
               <h3 className="text-2xl font-bold mb-2">2. Search Jobs</h3>
               <p className="text-lg">Use our powerful search tools to find job opportunities that match your skills and interests.</p>
             </div>
-            <div className="p-8 border-2 border-orange-400 shadow-2xl rounded-lg">
-              <i className="fas fa-paper-plane text-4xl mb-4"></i>
+            <div className="py-24 px-12 border-2 border-orange-400 shadow-2xl rounded-lg">
+              <FontAwesomeIcon icon={faPaperPlane} className="text-4xl mb-4" />
               <h3 className="text-2xl font-bold mb-2">3. Apply</h3>
               <p className="text-lg">Submit your application with a few clicks and track your application status.</p>
             </div>
@@ -100,7 +102,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Call to Action Section */}
       <section className="bg-white py-5 pb-10">
         <div className="container mx-auto px-6 flex flex-col gap-10 md:flex-row items-center justify-between text-orange-900">
           <div className="md:w-2/4 text-center md:text-left mb-6 md:mb-0 p-10 shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300 h-full">
@@ -116,7 +117,7 @@ const Home = () => {
             </a>
           </div>
           <div className="md:w-1/2">
-            <img src="./assets/Action.jpg" alt="Call to Action" className="w-full sm:w-full md:w-5/4 rounded-lg" />
+            <img className="w-full sm:w-full md:w-5/4 rounded-lg" src={Action} alt="Call to action" />
           </div>
         </div>
       </section>
