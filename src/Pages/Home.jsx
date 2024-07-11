@@ -1,11 +1,12 @@
 import React from 'react';
+import Hiring from '../assets/Hiring.jpg';
 
 const Home = () => {
   return (
     <div className="bg-red-100">
-      <section
-        className="hero bg-cover bg-center py-32"
-        style={{ backgroundImage: "url('./assets/Hiring.jpg')" }}
+       <section
+        className="hero bg-cover bg-center py-32 opacity-80"
+        style={{ backgroundImage: `url(${Hiring})` }}
       >
         <div className="container mx-auto px-6 text-center text-white bg-opacity-50 bg-black rounded-lg py-10">
           <h2 className="text-5xl font-bold mb-2">Welcome to GetHired</h2>
@@ -55,19 +56,19 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-lg text-gray-800 mb-6">
-                "GetHired helped me find my dream job in just a few weeks. The job alerts feature is amazing!"
+                GetHired helped me find my dream job in just a few weeks. The job alerts feature is amazing!
               </p>
               <h4 className="text-2xl font-bold text-orange-600">- Jane Doe</h4>
             </div>
             <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-lg text-gray-800 mb-6">
-                "The career resources on GetHired are top-notch. I improved my resume and landed more interviews."
+               &quot;The career resources on GetHired are top-notch. I improved my resume and landed more interviews.&quot;
               </p>
               <h4 className="text-2xl font-bold text-orange-600">- John Smith</h4>
             </div>
             <div className="p-8 bg-white shadow-2xl rounded-lg transform hover:scale-105 transition-transform duration-300">
               <p className="text-lg text-gray-800 mb-6">
-                "I love the wide range of job opportunities available. There's something for everyone on GetHired."
+                &quot;I love the wide range of job opportunities available. There&lsquo;s something for everyone on GetHired.&quot;
               </p>
               <h4 className="text-2xl font-bold text-orange-600">- Emily Johnson</h4>
             </div>
