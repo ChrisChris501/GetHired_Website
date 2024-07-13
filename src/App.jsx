@@ -19,7 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/JobLists" element={<JobLists />} />
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Application" element={<Application />} />
           <Route path="/JobAlerts" element={<JobAlerts />} />
           </Routes>
        <Footer />
