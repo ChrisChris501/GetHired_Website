@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobRoles = () => {
+const JobLists = () => {
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-3xl font-bold mb-8 text-center">Available Job Roles</h1>
@@ -68,4 +68,4 @@ const JobRoles = () => {
   );
 };
 
-export default JobRoles;
+export default JobLists;

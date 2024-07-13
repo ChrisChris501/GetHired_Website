@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-rout
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
-import Projects from './Pages/Application';
+import Application from './Pages/Application';
 import Resume from './Pages/JobLists';
 import Contact from './Pages/JobAlerts';
+import JobLists from './Pages/JobLists';
+import JobAlerts from './Pages/JobAlerts';
 //import Home from './Components/Home/Home';
 
 function App() {
@@ -16,9 +18,9 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/JobLists" element={<JobLists />} />
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/JobAlerts" element={<JobAlerts />} />
           </Routes>
        <Footer />
     </div>

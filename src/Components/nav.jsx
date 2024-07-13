@@ -20,10 +20,10 @@ const Nav = () => {
           </h1>
         </div>
         <div className="hidden md:flex space-x-8 text-xl">
-          <a href="index.html" className="text-red-100 hover:text-orange-900">Home</a>
+          <a href="/Home" className="text-red-100 hover:text-orange-900">Home</a>
           <a href="#" className="text-red-100 hover:text-orange-900">My Job Application</a>
-          <a href="job-alerts.html" className="text-red-100 hover:text-orange-900">Job Alerts</a>
-          <a href="JobLists.html" className="text-red-100 hover:text-orange-900">Find Jobs</a>
+          <a href="/JobAlerts" className="text-red-100 hover:text-orange-900">Job Alerts</a>
+          <a href="/JobLists" className="text-red-100 hover:text-orange-900">Find Jobs</a>
           <a href="#" className="text-red-100 hover:text-orange-900">Sign Up</a>
           <a href="#" className="text-red-100 hover:text-orange-900">Log In</a>
         </div>
@@ -53,10 +53,10 @@ const Nav = () => {
           isMobileMenuOpen ? '' : 'hidden'
         }`}
       >
-        <a href="index.html" className="hover:text-black">Home</a>
+        <a href="/Home" className="hover:text-black">Home</a>
         <a href="#" className="hover:text-black">My Job Application</a>
-        <a href="JobAlerts.html" className="hover:text-black">Job Alerts</a>
-        <a href="JobLists.html" className="hover:text-black">Find Jobs</a>
+        <a href="/JobAlerts" className="hover:text-black">Job Alerts</a>
+        <a href="/JobLists" className="hover:text-black">Find Jobs</a>
         <a href="#" className="hover:text-black">Sign Up</a>
         <a href="#" className="hover:text-black">Log In</a>
         <a href="#" className="text-red-100 hover:text-black">
