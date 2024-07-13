@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Application from './Pages/Application';
 import Resume from './Pages/JobLists';
-import Contact from './Pages/JobAlerts';
+import Success from './Pages/Success';
 import JobLists from './Pages/JobLists';
 import JobAlerts from './Pages/JobAlerts';
 //import Home from './Components/Home/Home';
@@ -21,6 +21,7 @@ function App() {
           <Route path="/JobLists" element={<JobLists />} />
           <Route path="/Application" element={<Application />} />
           <Route path="/JobAlerts" element={<JobAlerts />} />
+          <Route path="/Success" element={<Success />} />
           </Routes>
        <Footer />
     </div>

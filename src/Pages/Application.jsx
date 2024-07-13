@@ -2,7 +2,7 @@ import React from 'react';
 
 const Application = () => {
   const handleSubmit = () => {
-    window.location.href = 'success.html';
+    window.location.href = '/Success';
   };
 
   return (

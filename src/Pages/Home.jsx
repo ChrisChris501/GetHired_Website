@@ -18,7 +18,7 @@ const Home = () => {
             Join our community and get access to thousands of job listings, personalized job alerts, and career resources to help you succeed.
           </p>
           <a
-            href="#"
+            href="/SignUp"
             className="bg-orange-600 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-red-600 transition duration-300"
           >
             Get Started
@@ -110,7 +110,7 @@ const Home = () => {
               Join thousands of satisfied job seekers who have found their dream job with GetHired.
             </p>
             <a
-              href="#"
+              href="/SignUp"
               className="bg-red-500 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-red-600 transition duration-300"
             >
               Join Now
