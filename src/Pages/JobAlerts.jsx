@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const JobAlerts = () => {
   const [alerts, setAlerts] = useState([
-    { email: 'Chris@example.com', jobType: 'Remote', location: 'New York', title: 'Software Developer' },
-    { email: 'Chris@example.com', jobType: 'Part-Time', location: 'Los Angeles', title: 'Graphic Designer' },
-    { email: 'Chris@example.com', jobType: 'Full-Time', location: 'Nigeria', title: 'Frontend Developer' },
+    { email: 'User@example.com', jobType: 'Remote', location: 'New York', title: 'Software Developer' },
+    { email: 'User@example.com', jobType: 'Part-Time', location: 'Los Angeles', title: 'Graphic Designer' },
+    { email: 'User@example.com', jobType: 'Full-Time', location: 'Nigeria', title: 'Frontend Developer' },
   ]);
 
   const [email, setEmail] = useState('');
