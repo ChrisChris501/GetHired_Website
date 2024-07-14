@@ -10,9 +10,9 @@ const Success = () => {
         <p className="text-gray-700 mb-10 text-2xl">
           Thank you for applying! Your application has been successfully submitted.
         </p>
-        <a href="/Home"
+        <a href="/JobLists"
           className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline">
-            Return to Home
+            Return to Jobs
         </a>
     </div>
     </div>
