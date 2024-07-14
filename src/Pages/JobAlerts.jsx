@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 
 const JobAlerts = () => {
   const [alerts, setAlerts] = useState([
-    { email: 'user@example.com', jobType: 'Full-Time', location: 'New York', title: 'Software Developer' },
-    { email: 'user@example.com', jobType: 'Part-Time', location: 'Los Angeles', title: 'Graphic Designer' },
+    { email: 'Chris@example.com', jobType: 'Remote', location: 'New York', title: 'Software Developer' },
+    { email: 'Chris@example.com', jobType: 'Part-Time', location: 'Los Angeles', title: 'Graphic Designer' },
+    { email: 'Chris@example.com', jobType: 'Full-Time', location: 'Nigeria', title: 'Frontend Developer' },
   ]);
 
   const [email, setEmail] = useState('');
-  const [jobType, setJobType] = useState('full-time');
+  const [jobType, setJobType] = useState('Full-Time');
   const [location, setLocation] = useState('');
   const [title, setTitle] = useState('');
 
@@ -16,7 +17,7 @@ const JobAlerts = () => {
     const newAlert = { email, jobType, location, title };
     setAlerts([...alerts, newAlert]);
     setEmail('');
-    setJobType('full-time');
+    setJobType('Full-Time');
     setLocation('');
     setTitle('');
   };
@@ -62,6 +63,7 @@ const JobAlerts = () => {
                   <option value="part-time">Part-Time</option>
                   <option value="contract">Contract</option>
                   <option value="internship">Internship</option>
+                  <option value="internship">Volunteer</option>
                 </select>
               </div>
               <div className="mb-4">
