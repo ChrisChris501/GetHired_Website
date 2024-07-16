@@ -19,7 +19,6 @@ const SignUp = () => {
     const validationErrors = validateForm();
     if (Object.keys(validationErrors).length === 0) {
       console.log('Form submitted:', { name, email, password });
-      // Add your form submission logic here
     } else {
       setErrors(validationErrors);
     }
