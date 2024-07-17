@@ -28,8 +28,16 @@ const SignUp = () => {
     const errors = {};
     if (!name) errors.name = 'Full name is required';
     if (!email) errors.email = 'Email is required';
-    if (!password) errors.password = 'Password is required';
-    return errors;
+
+    if (!password) {
+      errors.password = 'Password is required';
+    } else if (
+      !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)
+    ) {
+      errors.password = 'Password must be at least 8 characters long, include uppercase and lowercase letters, at least one number, and one special character';
+    }
+    setErrors(errors);
+    return Object.keys(errors).length === 0;
   };
 
   return (
