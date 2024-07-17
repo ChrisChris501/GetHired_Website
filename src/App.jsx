@@ -8,7 +8,7 @@ import SignUp from './Pages/SignUp';
 import Success from './Pages/Success';
 import JobLists from './Pages/JobLists';
 import JobAlerts from './Pages/JobAlerts';
-//import H from './Components/Home/Home';
+import SignIn from './Pages/SignIn';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/JobAlerts" element={<JobAlerts />} />
           <Route path="/Success" element={<Success />} />
+          <Route path="/SignIn" element={<SignIn />} />
           </Routes>
        <Footer />
     </div>

@@ -25,7 +25,7 @@ const Nav = () => {
           <a href="/JobAlerts" className="text-red-100 hover:text-orange-900">Job Alerts</a>
           <a href="/JobLists" className="text-red-100 hover:text-orange-900">Find Jobs</a>
           <a href="/SignUp" className="text-red-100 hover:text-orange-900">Sign Up</a>
-          <a href="#" className="text-red-100 hover:text-orange-900">Log In</a>
+          <a href="/SignIn" className="text-red-100 hover:text-orange-900">Sign In</a>
         </div>
         <div className="hidden md:flex space-x-8 mr-10 text-2xl">
           <a href="#" className="text-red-100 hover:text-orange-900">
@@ -58,7 +58,7 @@ const Nav = () => {
         <a href="/JobAlerts" className="hover:text-black">Job Alerts</a>
         <a href="/JobLists" className="hover:text-black">Find Jobs</a>
         <a href="SignUp" className="hover:text-black">Sign Up</a>
-        <a href="#" className="hover:text-black">Log In</a>
+        <a href="/SignIn" className="hover:text-black">Sign In</a>
         <a href="#" className="text-red-100 hover:text-black">
           <FontAwesomeIcon icon={faUser} />
         </a>
