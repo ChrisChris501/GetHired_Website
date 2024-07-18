@@ -21,7 +21,7 @@ const Nav = () => {
         </div>
         <div className="hidden md:flex space-x-8 text-xl">
           <a href="/Home" className="text-red-100 hover:text-orange-900">Home</a>
-          <a href="#" className="text-red-100 hover:text-orange-900">My Job Application</a>
+          <a href="/JobApplication" className="text-red-100 hover:text-orange-900">My Job Application</a>
           <a href="/JobAlerts" className="text-red-100 hover:text-orange-900">Job Alerts</a>
           <a href="/JobLists" className="text-red-100 hover:text-orange-900">Find Jobs</a>
           <a href="/SignUp" className="text-red-100 hover:text-orange-900">Sign Up</a>
