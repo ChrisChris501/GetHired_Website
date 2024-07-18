@@ -36,7 +36,7 @@ const JobApplication = () => {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto mt-10 p-6">
+    <div className="max-w-5xl mx-auto my-10 p-6 bg-orange-100">
       <h2 className="text-4xl font-bold text-center mb-6">My Job Applications</h2>
 
       {/* Profile Section */}
