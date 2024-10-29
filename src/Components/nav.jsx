@@ -54,7 +54,7 @@ const Nav = () => {
         }`}
       >
         <a href="/Home" className="hover:text-black">Home</a>
-        <a href="#" className="hover:text-black">My Job Application</a>
+        <a href="/JobApplication" className="hover:text-black">My Job Application</a>
         <a href="/JobAlerts" className="hover:text-black">Job Alerts</a>
         <a href="/JobLists" className="hover:text-black">Find Jobs</a>
         <a href="SignUp" className="hover:text-black">Sign Up</a>
