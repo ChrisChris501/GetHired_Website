@@ -131,4 +131,4 @@ const JobApplication = () => {
   );
 };
 
-export default MyJobApplication;
+export default JobApplication;
