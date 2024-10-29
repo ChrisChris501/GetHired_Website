@@ -104,13 +104,13 @@ const SignUp = () => {
         </form>
         <p className="text-center text-gray-700 my-8">Or sign up with</p>
         <div className="flex justify-center gap-4 mb-4">
-          <button className="bg-red-600 text-white py-3 px-4 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
+          <button className="bg-red-600 text-white p-2 rounded-full text-lg font-semibold hover:bg-red-700 transition duration-300">
             <FontAwesomeIcon icon={faGoogle} />
           </button>
-          <button className="bg-blue-600 text-white py-3 px-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">
+          <button className="bg-blue-600 text-white p-2 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">
             <FontAwesomeIcon icon={faFacebook} />
           </button>
-          <button className="bg-blue-500 text-white py-3 px-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300">
+          <button className="bg-blue-500 text-white p-2 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300">
             <FontAwesomeIcon icon={faLinkedin} />
           </button>
         </div>
