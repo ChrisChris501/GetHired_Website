@@ -9,7 +9,7 @@ import Success from './Pages/Success';
 import JobLists from './Pages/JobLists';
 import JobAlerts from './Pages/JobAlerts';
 import SignIn from './Pages/SignIn';
-import MyJobApplication from './Pages/MyJobApplication';
+import JobApplication from './Pages/JobApplication';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           <Route path="/JobAlerts" element={<JobAlerts />} />
           <Route path="/Success" element={<Success />} />
           <Route path="/SignIn" element={<SignIn />} />
-          <Route path="/MyJobApplication" element={<MyJobApplication />} />
+          <Route path="/JobApplication" element={<JobApplication />} />
           </Routes>
        <Footer />
     </div>
